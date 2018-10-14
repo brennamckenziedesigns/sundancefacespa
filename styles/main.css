@@ -1,0 +1,576 @@
+
+img {
+  width: 100%;
+}
+
+
+body {
+  display: block;
+  font-family: 'Raleway';
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr;
+  padding: 5% 0;
+}
+
+/**22px**/
+
+h1 {
+  font-family: "Comfortaa";
+  font-size: 1.375rem;
+  margin: 0;
+  color: #284703;
+}
+
+#bold {
+  font-weight: 500;
+}
+
+/** 18px**/
+
+h2 {
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #284703;
+}
+
+/**14px**/
+h3 {
+  font-size: .875rem;
+  font-weight: 500;
+  margin-bottom: 1%;
+}
+
+/**button**/
+h4 {
+  margin: 0;
+  font-size: .75rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+/**16px**/
+h5 {
+  font-size: 1rem;
+}
+
+/**20px**/
+h6 {
+  font-size: 1.25rem;
+  color: #284703;
+  margin-bottom: 1%;
+}
+
+
+p {
+  font-size: .75rem;
+  line-height: .875rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.skin-care-nav a, .tinting-nav a, .waxing-nav a {
+  color: #284703;
+}
+
+.about-products a{
+  color: #652952;
+}
+
+#green {
+  color: #284703;
+}
+
+#purple {
+  color: #652952;
+}
+
+#left-align {
+  text-align: right;
+}
+
+.navbar .logo {
+     cursor: pointer;
+ }
+
+.treatments .navbar-link, .products .navbar-link, .ourwork .navbar-link,.about-nav .navbar-link,.book .navbar-link, .contact .navbar-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #2C302E;
+  font-size: .8rem;
+  font-family: 'Raleway';
+  text-align: center;
+  padding: 10px;
+}
+
+.treatments, .products, .ourwork, .about-nav, .book, .contact {
+  display: none;
+}
+
+.sundance-logo {
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+
+.sundance-logo img {
+  width: 40%;
+}
+
+.about .copy{
+  position: absolute;
+  bottom: 20%;
+  padding: 0 12%;
+}
+
+.section-one .copy, .section-two .copy {
+  position: absolute;
+  bottom: 8%;
+  padding: 0 10%;
+  color: white;
+}
+
+.about p, .section-one .copy p, .section-two .copy p{
+  margin-top: 0;
+}
+
+.about, .section-one, .section-two {
+  position: relative;
+  align-items: center;
+}
+
+.section-one {
+  margin-top: -2%;
+}
+
+
+.section-two {
+  margin-bottom: 5%;
+}
+
+.section-three {
+  text-align: center;
+}
+
+.section-one img, .section-two img {
+  width: 125%;
+}
+
+.section-three img {
+  width: 10%;
+}
+
+
+
+.about h4 {
+  color: #652952;
+}
+
+.quote h3 {
+  font-family: "Comfortaa";
+  color: #284703;
+  text-align: center;
+  padding: 5%;
+}
+
+.quote-two, .quote-three, .quote-four, .quote-five {
+  background-color: #652952;
+  padding: 3% 10%;
+}
+
+.quote-two h3, .quote-three h3, .quote-four h3, .quote-five h3{
+  color: white;
+  text-align: center;
+}
+
+.before-after-image-one img, .before-after-image-two img, .before-after-image-three img, .before-after-image-four img{
+  width:35%;
+}
+
+.about-products {
+  grid-row: 2;
+}
+
+.skin-care-nav, .tinting-nav, .waxing-nav {
+  float: right;
+  text-align: center;
+}
+
+.skin-care-nav img, .tinting-nav img, .waxing-nav img{
+  width: 40%;
+}
+
+#price {
+  float: right;
+  margin-top: -12%;
+}
+
+.skin-care, .skin-care-ad-ons, .tinting, .waxing {
+  margin-top: 5%;
+}
+
+.waxing {
+  margin-bottom: 5%;
+}
+
+
+
+.before-after-image-one, .before-after-image-two, .before-after-image-three, .before-after-image-four {
+  text-align: center;
+  padding: 5% 0;
+}
+
+#sub-head {
+  color: #652952;
+}
+
+.footer {
+  padding: 2% 0 2% 10%;
+  margin-top: 5%;
+  border-top: 1px solid #652952;
+}
+
+.footer p {
+  font-size: .75rem;
+  margin: 0;
+}
+
+.footer a {
+  color: #652952;
+}
+
+
+
+@media (min-width: 768px) {
+
+  .wrapper {
+    display: grid;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    grid-template-columns: .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr;
+    padding: 5% 0;
+  }
+
+
+  /**48px**/
+
+  h1 {
+    font-family: "Comfortaa";
+    font-size: 3rem;
+    margin: 0;
+    color: #284703;
+  }
+
+  #bold {
+    font-weight: 500;
+  }
+
+  /** 26px**/
+
+  h2 {
+    font-size: 1.625rem;
+  }
+
+  /**24px**/
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  /**button**/
+  h4 {
+    margin: 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  /**20px**/
+  h5 {
+    font-size: 1.25rem;
+  }
+
+
+  p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  td {
+    font-size: .75rem;
+  }
+
+  td {
+    border-right: 5%;
+  }
+
+
+  .sundance-logo  {
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    margin-bottom: 0;
+    margin-left: -40%;
+  }
+
+  .sundance-logo img {
+    width: 100%;
+  }
+
+  .section-one img, .section-two img {
+    width: 100%;
+  }
+
+  .treatments, .products, .ourwork, .about-nav, .book, .contact {
+    display: inline;
+  }
+
+  .about {
+    top: 20%;
+  }
+
+  .section-one .copy, .section-two .copy {
+    bottom: 30%;
+    left: 16px;
+    padding: 0 15% 0 10%;
+  }
+
+  .quote h3 {
+    padding: 40px 0 40px 0;
+  }
+
+  .treatments {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: right;
+    margin-left: 0;
+  }
+
+  .products {
+    grid-column: 4;
+    grid-row: 1;
+    text-align: center;
+    margin-left: 0;
+  }
+  .ourwork {
+    grid-column: 5;
+    grid-row: 1;
+    text-align: center;
+    margin-left: 0;
+  }
+  .about-nav {
+    grid-column: 6;
+    grid-row: 1;
+    text-align: center;
+    margin-left: 0;
+  }
+  .book {
+    grid-column: 7;
+    grid-row: 1;
+    text-align: center;
+    margin-left: 0;
+  }
+  .contact {
+    grid-column: 8;
+    grid-row: 1;
+    text-align: center;
+    margin-left: 0;
+  }
+
+.about {
+  grid-row: 2;
+  grid-column: 1/9;
+}
+
+  .about-products {
+    grid-row: 2;
+    grid-column: 2/8;
+    padding-top: 5%;
+  }
+  .header-image {
+    grid-row: 2;
+    grid-column: 2/8;
+    margin-top: 5%;
+  }
+
+  .product-section {
+    grid-column: 2/8;
+  }
+
+  .section-one {
+    grid-row: 3;
+    grid-column: 1/9;
+  }
+
+.quote {
+  grid-row: 4;
+  grid-column: 2/8;
+}
+
+.section-two {
+  grid-row: 5;
+  grid-column: 1/9;
+
+}
+
+.section-three {
+  grid-row: 6;
+  grid-column: 2/8;
+}
+
+.section-three img {
+  width: 10%;
+}
+
+.about-section {
+  grid-column: 2/8;
+}
+
+.before-after-image-one {
+  grid-row: 3;
+  grid-column: 2/8;
+}
+
+.quote-two {
+  grid-row: 4;
+  grid-column: 1/9;
+}
+
+.before-after-image-two {
+  grid-row: 5;
+  grid-column: 2/8;
+}
+
+.quote-three {
+  grid-row: 6;
+  grid-column: 1/9;
+}
+
+.before-after-image-three {
+  grid-row: 7;
+  grid-column: 2/8;
+}
+
+.quote-four {
+  grid-row: 8;
+  grid-column: 1/9;
+}
+
+.before-after-image-four {
+  grid-row: 9;
+  grid-column: 2/8;
+}
+
+.quote-five {
+  grid-row: 10;
+  grid-column: 1/9;
+}
+
+.skin-care-nav img, .tinting-nav img, .waxing-nav img{
+  width: 100%;
+}
+
+.skin-care-nav, .tinting-nav, .waxing-nav {
+  grid-row: 3;
+}
+
+.skin-care-nav, .tinting-nav, .waxing-nav {
+  grid-column: 2;
+  text-align: center;
+  align-items: center;
+}
+
+.tinting-nav {
+  grid-column: 4;
+  text-align: center;
+  align-items: center;
+}
+
+.waxing-nav {
+  grid-column: 6;
+  text-align: center;
+  align-items: center;
+}
+
+.skin-care {
+  grid-row: 4;
+  grid-column: 2/8;
+}
+
+.skin-care-ad-ons {
+  grid-row: 5;
+  grid-column: 2/8;
+}
+
+.tinting{
+  grid-row: 6;
+  grid-column: 2/8;
+}
+
+.waxing {
+  grid-row: 7;
+  grid-column: 2/8;
+}
+
+#price {
+  float: right;
+  margin-top: -60px;
+}
+
+.image {
+  grid-row: 8;
+  grid-column: 2/8;
+}
+
+.faq {
+  grid-row: 9;
+  grid-column: 2/8;
+}
+
+.credentials-section {
+  grid-row: 4;
+  grid-column: 2/8;
+}
+
+.credentials-section p {
+  font-size: .75rem;
+}
+
+.right-list {
+  float: right;
+  margin-top: -25%;
+}
+
+  .footer {
+    grid-column: 1/9;
+    grid-row: 11;
+  }
+
+
+}
+
+@media (min-width: 1024px) {
+
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="37px" height="34px" viewBox="0 0 37 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="104.347826%" gradientTransform="translate(0.500000,0.500000),scale(1.000000,0.958333),rotate(90.000000),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F9B433" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Wireframes-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQ" transform="translate(-39.000000, -68.000000)">
+            <g id="Group-Copy" transform="translate(39.000000, 68.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="37" height="34"></rect>
+                <ellipse id="Oval-13-Copy" fill="url(#radialGradient-1)" cx="17.5" cy="17" rx="11.5" ry="12"></ellipse>
+                <polygon id="Star-Copy-2" stroke="#652952" stroke-width="0.76" fill="#284703" points="18.5 25 13.7102366 32.2169043 13.9446643 23.472136 5.96023659 26.404564 11.129312 19.472136 3 17 11.129312 14.527864 5.96023659 7.59543596 13.9446643 10.527864 13.7102366 1.78309574 18.5 9 23.2897634 1.78309574 23.0553357 10.527864 31.0397634 7.59543596 25.870688 14.527864 34 17 25.870688 19.472136 31.0397634 26.404564 23.0553357 23.472136 23.2897634 32.2169043"></polygon>
+                <circle id="Oval-13-Copy-2" fill="#FFFFFF" cx="18" cy="17" r="9"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
