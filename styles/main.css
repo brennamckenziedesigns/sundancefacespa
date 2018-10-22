@@ -192,6 +192,7 @@ a {
 
 .about-products {
   grid-row: 2;
+  margin: 0 10%;
 }
 
 .skin-care-nav, .tinting-nav, .waxing-nav {
@@ -209,18 +210,28 @@ a {
 }
 
 .skin-care, .skin-care-ad-ons, .tinting, .waxing {
-  margin-top: 5%;
+  margin: 5% 10% 0 10%;
 }
 
 .waxing {
   margin-bottom: 5%;
 }
 
-
+.product-section {
+  margin: 10%;
+}
 
 .before-after-image-one, .before-after-image-two, .before-after-image-three, .before-after-image-four {
   text-align: center;
   padding: 5% 0;
+}
+
+.about-section, .credentials-section {
+  margin: 0 10%;
+}
+
+.faq {
+  margin: 0 10%;
 }
 
 #sub-head {
@@ -240,6 +251,10 @@ a {
 
 .footer a {
   color: #652952;
+}
+
+.social-icons {
+  padding-top: 2%;
 }
 
 
@@ -392,6 +407,7 @@ a {
     grid-row: 2;
     grid-column: 2/8;
     padding-top: 5%;
+    margin: 0;
   }
   .header-image {
     grid-row: 2;
@@ -401,6 +417,10 @@ a {
 
   .product-section {
     grid-column: 2/8;
+  }
+
+  .product-section {
+    margin: 10% 0 0 0;
   }
 
   .section-one {
@@ -484,6 +504,7 @@ a {
   grid-column: 2;
   text-align: center;
   align-items: center;
+  margin: 20% 0;
 }
 
 .tinting-nav {
@@ -501,21 +522,25 @@ a {
 .skin-care {
   grid-row: 4;
   grid-column: 2/8;
+  margin: 5% 0 0 0;
 }
 
 .skin-care-ad-ons {
   grid-row: 5;
   grid-column: 2/8;
+  margin: 5% 0 0 0;
 }
 
 .tinting{
   grid-row: 6;
   grid-column: 2/8;
+  margin: 5% 0 0 0;
 }
 
 .waxing {
   grid-row: 7;
   grid-column: 2/8;
+  margin: 5% 0 0 0;
 }
 
 #price {
@@ -531,6 +556,11 @@ a {
 .faq {
   grid-row: 9;
   grid-column: 2/8;
+  margin: 0;
+}
+
+.about-section, .credentials-section {
+  margin: 0 ;
 }
 
 .credentials-section {
@@ -542,9 +572,14 @@ a {
   font-size: .75rem;
 }
 
+.left-list {
+  width: 50%;
+  margin: 0;
+}
+
 .right-list {
   float: right;
-  margin-top: -25%;
+  margin-top: -20%;
 }
 
   .footer {
