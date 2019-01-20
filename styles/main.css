@@ -129,9 +129,18 @@ a {
 .section-one .copy, .section-two .copy {
   position: absolute;
   bottom: 8%;
-  padding: 0 10%;
+  padding: 10%;
   color: white;
 }
+
+.section-one .copy {
+  margin: -3% 0;
+}
+
+.section-two .copy {
+  margin: -6% 0;
+}
+
 
 .about p, .section-one .copy p, .section-two .copy p{
   margin-top: 0;
@@ -173,7 +182,7 @@ a {
   font-family: "Comfortaa";
   color: #284703;
   text-align: center;
-  padding: 5%;
+  padding: 5% 10%;
 }
 
 .quote-two, .quote-three, .quote-four, .quote-five {
@@ -266,7 +275,7 @@ a {
     grid-column-gap: 12px;
     grid-row-gap: 12px;
     grid-template-columns: .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr;
-    padding: 5% 0;
+    padding: 2% 0 5% 0;
   }
 
 
@@ -346,14 +355,13 @@ a {
     display: inline;
   }
 
-  .about {
-    top: 20%;
-  }
+
 
   .section-one .copy, .section-two .copy {
     bottom: 30%;
     left: 16px;
     padding: 0 15% 0 10%;
+    margin: 0;
   }
 
   .quote h3 {
